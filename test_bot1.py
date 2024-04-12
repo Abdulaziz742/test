@@ -9,6 +9,7 @@ bot = telebot.TeleBot(token)
 def start(message):
     conn = sqlite3.connect('test_bot2.db')
     cur = conn.cursor()
+def hello()
 
     cur.execute('''CREATE TABLE IF NOT EXISTS user (id INTEGER name varchar(50), password varchar(50));''')
 
