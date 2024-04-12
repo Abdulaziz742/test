@@ -10,6 +10,9 @@ def start(message):
     conn = sqlite3.connect('test_bot2.db')
     cur = conn.cursor()
 def hello()
+    pass
+def ismoil_func():
+    pass
 
     cur.execute('''CREATE TABLE IF NOT EXISTS user (id INTEGER name varchar(50), password varchar(50));''')
 
